@@ -16,4 +16,4 @@ spring:
     username: guest
     password: guest
 
-test: "{cipher}b5c74dc3b1950cd0bde664c6536d4f57d717fdbf4d82d0bf9aead7424c6c227b"
+test: '{cipher}b5c74dc3b1950cd0bde664c6536d4f57d717fdbf4d82d0bf9aead7424c6c227b'
