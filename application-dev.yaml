@@ -14,4 +14,4 @@ spring:
     host: localhost
     port: 5672
     username: guest
-    password: "{cipher}a73058d8f3401a410403c5563dbab306eb314e8fd07764d0fd6c53170fd12fe2"
+    password: "{cipher}b5c74dc3b1950cd0bde664c6536d4f57d717fdbf4d82d0bf9aead7424c6c227b"
