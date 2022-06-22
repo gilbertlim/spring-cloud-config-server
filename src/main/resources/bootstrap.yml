@@ -1,0 +1,13 @@
+encrypt:
+  key: my_config_key
+  3
+4spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false # false : Config Server에서 복호화 비활성화
+        git:
+          uri: git@github.com:gilbertlim/spring-cloud-config-server.git

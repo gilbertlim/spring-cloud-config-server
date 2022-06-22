@@ -1,0 +1,18 @@
+server:
+  port: 8200
+
+spring:
+  application:
+    name: configserver
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:gilbertlim/spring-cloud-config-server.git
+          ignore-local-ssh-settings: true
+          passphrase: ############
+          private-key: |
+            -----BEGIN EC PRIVATE KEY-----
+            #################################
+            -----END EC PRIVATE KEY-----

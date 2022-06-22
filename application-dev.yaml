@@ -1,0 +1,17 @@
+profile: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: "{cipher}a73058d8f3401a410403c5563dbab306eb314e8fd07764d0fd6c53170fd12fe2"
